@@ -1,8 +1,6 @@
-$text: #444;
-$font-family: "Helvetica", sans-serif;
-
 @import 'variables';
 @import 'layout';
+@import 'botones';
 
 body{
 	color: $text;
