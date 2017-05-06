@@ -1,56 +1,28 @@
-$text: #444;
-$font-family: 'Helvetica', sans-serif;
-$title: #888888;
-$title-font-family: 'Georgia', serif;
-
-// $cadena: 'valor';
 
 // @if ($cadena == 'valor'){} // true
 // @if ($cadena){} // true
 
-// $cadena1: 'Hola';
-// $cadena2: ' mundo!';
-// $cadena3: $cadena1 + $cadena2;
+
 
 // div{
 // 	content: $cadena3;
 // }
 
-// $numero1: 14%;
-// $numero2: 2;
 
 // $resultado: $numero1 + $numero2;
 
 // div{
 // 	content: $resultado;
 // }
-
-// $numero1: 6em;
-// $numero2: 2;
-
-// $resultado: $numero1 + $numero2;
 
 // div{
 // 	content: $resultado;
 // 	margin-bottom: ($numero1 / $numero2);
 // }
 
-// $var: null; // nada
-// $var: 6;
-
-// $var: 1; //true
-// $foo: 0; //true
-// $boo: 'cadena'; //true
-// $baz: ''; //true
-// $joe: true; //true
-
-// $var: null; // false
-// $foo: false; //false
 
 // INTERPOLACION -------------------->
 
-// $image: 'icon.png';
-// $path: 'public/img/';
 // p{
 	// background-image: url('#{$path+$image}');
 	// O solo
@@ -59,7 +31,6 @@ $title-font-family: 'Georgia', serif;
 
 // LISTAS --------------------------->
 
-// $lista: facebook, twitter, linkedin;
 // @each $item in $lista{
 // 	.icon-#{$item}{
 // 		background-image: url('#{$item}.png');
@@ -68,8 +39,5 @@ $title-font-family: 'Georgia', serif;
 
 // MAPA ----------------------------->
 
-// $mapa: (
-// 	clave: valor,
-// 	clave2: valor2
-// )
+
 // map-get($mapa, clave);

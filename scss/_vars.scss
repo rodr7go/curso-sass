@@ -1,0 +1,46 @@
+$text: #444;
+$font-family: 'Helvetica', sans-serif;
+$title: #888888;
+$title-font-family: 'Georgia', serif;
+$fs: 14px;
+
+$cadena: 'valor';
+$cadena1: 'Hola';
+$cadena2: ' mundo!';
+$cadena3: $cadena1 + $cadena2;
+
+$numero1: 14%;
+$numero2: 2;
+$numero1: 6em;
+$numero2: 2;
+
+$var: null; // nada
+$var: 6;
+
+$var: 1; //true
+$foo: 0; //true
+$boo: 'cadena'; //true
+$baz: ''; //true
+$joe: true; //true
+$var: null; // false
+$foo: false; //false
+
+$lista: facebook, twitter, linkedin;
+$mapa: (
+	clave: valor,
+	clave2: valor2
+);
+
+$image: 'icon.png';
+$path: 'public/img/';
+
+// $if1 : 31;
+
+$redes: (facebook, #3b5998), (twitter, #00aced), (gplus, #dd4b39);
+
+$fvar: 100px;
+$fcolor: white;
+$color: rgba($fcolor, 0.3);
+
+$box-bg: #e6ebe0;
+$box-radius: 5px;
